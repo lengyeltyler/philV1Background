@@ -1,0 +1,36 @@
+{
+  "name": "philV1",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "generate-bg": "node public/traitGeneration/runBgTrait.js",
+    "split-bg": "node public/traitGeneration/splitBgAtlas.js",
+    "build-bg-spiral-atlas": "node scripts/buildBgSpiralAtlas.js",
+    "generate-spiral-params": "node public/traitGeneration/generateSpiralParams.js",
+    "spiral-params-to-svg": "node public/traitGeneration/spiralParamsToSvg.js",
+    "build-bg-spiral-params-atlas": "node scripts/buildBgSpiralParamsAtlas.js",
+    "gen-bg-spiral-20kb": "node public/traitGeneration/generateBgSpiralSvg_20kb.js",
+    "build-bg-spiral-svg-atlas": "node scripts/buildBgSpiralSvgAtlas.js",
+    "build-bg-spiral-svg-atlas-multi": "node scripts/buildBgSpiralSvgAtlasMulti.js",
+    "gen-bg-colors": "node public/traitGeneration/generateBgColorSvgs.js",
+    "build-bg-color-atlas": "node scripts/buildBgColorSvgAtlasMulti.js",
+    "gen-bg-stars": "node public/traitGeneration/generateBgStarsSvgs.js",
+    "build-bg-stars-atlas": "node scripts/buildBgStarsSvgAtlasMulti.js",
+    "gen-bg-nebula": "node public/traitGeneration/generateBgNebulaSvgs.js",
+    "build-bg-nebula-atlas": "node scripts/buildBgNebulaSvgAtlasMulti.js",
+    "gen-bg-dust": "node public/traitGeneration/generateBgDustSvgs.js",
+    "build-bg-dust-atlas": "node scripts/buildBgDustSvgAtlasMulti.js",
+    "deploy-bg-sepolia": "npx hardhat run scripts/deployBgAllAndComposer.cjs --network sepolia",
+    "svg-to-png": "node scripts/svgToPng.js"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "6.1.0",
+    "dotenv": "^17.2.3",
+    "hardhat": "2.27.2",
+    "svgo": "^4.0.0"
+  },
+  "dependencies": {
+    "sharp": "^0.33.5",
+    "solmate": "^6.8.0"
+  }
+}

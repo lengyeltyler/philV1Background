@@ -1,0 +1,19 @@
+{
+  "network": "sepolia",
+  "atlases": {
+    "BgColorAtlas": "0x06aBea9515BdB4C596D264F0C263286aa9BD33B4",
+    "BgStarsAtlas": "0x058f0ffc69f26fd527eB3328c1c7D7a7A9B19eB4",
+    "BgSpiralAtlas": "0xCdE1bCa93C2799139dC21Ca3b82FC80F318c7a32",
+    "BgNebulaAtlas": "0x1Cda06350fe9407037B8b2454708A3a01A503414",
+    "BgDustAtlas": "0xD289366eaB28Afb483e11cA87245f37729d0E954"
+  },
+  "renderers": {
+    "BgColorRenderer": "0x3a464705b15EbA6cf5334Ee87E0C8cbEBff79E8F",
+    "BgStarsRenderer": "0xF6f2D1d530b034f3f547854B301e384Bd474c989",
+    "BgSpiralRenderer": "0x8A126aD62c3B7056452e4D62137B4Ae9e70b68C7",
+    "BgNebulaRenderer": "0xb8441A93aE7878C19C0F13A921170245168bE379",
+    "BgDustRenderer": "0xdD32935Bb17a18D9057AcD13074D0bB05fb22241"
+  },
+  "composer": "0xaAA8AC01746Ffa3925E8d453A07991C503CFA16B",
+  "registryV2": "0xd0e974889dd9E9086CCe7a71f67E9C09BAE5C260"
+}

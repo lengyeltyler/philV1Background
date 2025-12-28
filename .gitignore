@@ -1,0 +1,32 @@
+# dependencies
+node_modules/
+
+# hardhat
+artifacts/
+cache/
+typechain/
+coverage/
+
+# env
+.env
+.env.*
+!.env.example
+
+# OS
+.DS_Store
+
+# logs
+*.log
+
+# generated outputs (DO NOT COMMIT)
+output/
+# if you later want to keep output/bg_deploy_report.json tracked, remove this and ignore png only
+# output/png/
+
+# generated atlas jsons, temp build artifacts (if created)
+**/*.tmp
+**/*.bak
+
+# optional: if you generate rendered outputs under scripts
+scripts/**/rendered_*.svg
+scripts/**/rendered_*.json
